@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio..css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+ <div class="logo"><i class="fas fa-laptop-code"></i> PORTFOLIO</div>
+
+
+  <!-- Hamburger icon (visible on mobile only) -->
+  <div class="menu-icon" id="menu-icon">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Normal nav bar (visible on desktop) -->
+  <nav class="navbar-desktop">
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+</header>
+ <button id="theme-toggle" aria-label="Toggle Theme">
+  <i class="fas fa-moon"></i>
+</button>
+
+<!-- Side Drawer for Mobile -->
+<div class="side-drawer" id="side-drawer">
+  <ul class="mobile-nav">
+    <li><a href="#home" onclick="closeDrawer()">Home</a></li>
+    <li><a href="#about" onclick="closeDrawer()">About</a></li>
+    <li><a href="#education" onclick="closeDrawer()">Education</a></li>
+    <li><a href="#skills" onclick="closeDrawer()">Skills</a></li>
+    <li><a href="#projects" onclick="closeDrawer()">Projects</a></li>
+    <li><a href="#certifications" onclick="closeDrawer()">Certifications</a></li>
+    <li><a href="#contact" onclick="closeDrawer()">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Overlay -->
+<div id="overlay" class="overlay" onclick="closeDrawer()"></div>
+
+
+
+    <section class="home"id="home">
+       
+        
+    <h1>Hi, I am <span class="highlight">Abinaya</span></h1>
+    <h3>Full Stack Developer | Curious Learner | Tech Explorer</h3>
+    <p>
+      I am passionate about crafting seamless, scalable web solutions and solving complex challenges in the ever-evolving tech landscape.
+    </p>
+    <div class="profile-pic">
+      <img src="img.JPG" alt="Aishwarya" />
+    </div>
+   <div class="socials">
+  <a href="mailto:abinaya271104@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/abinaya-s-173816270" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/Abinaya2711" target="_blank" rel="noopener noreferrer" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+
+
+    </section>
+  <section id="about" class="about">
+  <h2>About <span>Me</span> </h2>
+  <p>I'm <span class="highlight">Abinaya S</span>, a <span class="highlight">Full Stack Developer</span> who enjoys turning ideas into functional, real-world applications. I take pride in writing <span class="highlight">clean, efficient code</span> and building <span class="highlight">user-friendly interfaces</span> that align with the needs of both users and businesses.</p>
+
+<p>With experience in <span class="highlight">HTML, CSS, JavaScript, React, Node.js, Express.js,</span> and <span class="highlight">SQL</span>, I work across the entire web stack—from crafting intuitive front-end experiences to building solid back-end APIs and managing databases. I'm also stepping into the world of <span class="highlight">cloud and DevOps</span>, aiming to streamline deployments and enhance scalability.</p>
+
+<p>I’m driven by <span class="highlight">curiosity</span> and a love for <span class="highlight">problem-solving</span>. Whether it's debugging an issue, learning a new framework, or taking on coding challenges on platforms like <span class="highlight">LeetCode</span> or <span class="highlight">Geeks for Geeks</span>, I enjoy pushing my boundaries and growing a little every day.</p>
+
+<p>I focus on building <span class="highlight">clean, efficient, and scalable</span> web applications that solve real problems. I'm passionate about <span class="highlight">backend architecture</span> and continuously improving my skills through hands-on projects and coding challenges. I'm eager to explore <span class="highlight">system-level design</span> and contribute to impactful, long-term solutions.</p>
+
+
+  <a href="AbinayaS_Resume.pdf" class="resume-btn" target="_blank" download>Download Resume</a>
+</section>
+
+    
+  <section class="education-section" id="education">
+    <h2 class="section-titlee">My <span>Education</span></h2>
+
+    <div class="edu-card">
+      <h3>PSNA College of Engineering and Technology, Dindigul</h3>
+      <p>B.Tech (Information Technology)</p>
+      <p>2022 - 2026</p>
+      <p><strong>CGPA:</strong> 8.91</p>
+    </div>
+    <div class="edu-card">
+    
+      <h3>St. Joseph's Matriculation Higher Secondary School, Madurai</h3>
+      <p><strong>HSC (2022):</strong> 531/600 - 88.5%</p>
+      
+    </div>
+
+    <div class="edu-card">
+        <h3>Grace Matriculation Higher Secondary School, Madurai</h3>
+ 
+      <p><strong>SSLC (2020):</strong> 402/500 - 80.4%</p>
+      
+    </div>
+  </section>
+<section class="skills-section" id="skills">
+  <h2 class="skills-title">My <span>Skills</span></h2>
+
+  <div class="skills-container">
+    <div class="skill-category">
+      <h3>Languages</h3>
+      <ul>
+        <li><i class="devicon-java-plain colored"></i> Java</li>
+        <li><i class="devicon-c-plain colored"></i> C</li>
+        <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li><i class="devicon-html5-plain colored"></i> HTML5</li>
+        <li><i class="devicon-css3-plain colored"></i> CSS3</li>
+        <li><i class="devicon-react-original colored"></i> React.js</li>
+        <li><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
+        <li><i class="devicon-jquery-plain colored"></i> jQuery</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Backend & Databases</h3>
+      <ul>
+        <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+        <li><i class="devicon-express-original colored"></i> Express.js</li>
+        <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+        <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools & Version Control</h3>
+      <ul>
+        <li><i class="devicon-git-plain colored"></i> Git</li>
+        <li><i class="devicon-github-original colored"></i> GitHub</li>
+        <li><i class="devicon-vscode-plain colored"></i> VS Code</li>
+        <li><i class="devicon-postman-plain colored"></i> Postman</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+ <section id="projects">
+  <h2 class="sectionn-title">My <span>Projects</span></h2>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <img src="pc1.png" alt="Project 1">
+      <h3>PSNA Mahaal Enquiry and Booking System</h3>
+      <p>A venue booking system built for PSNA college that allows users to view hall availability, send booking requests, and enables admins to manage bookings and enquiries efficiently.</p>
+      <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express.js, MySQL </p>
+      <a href="https://github.com/Abinaya2711/PSNA-Mahaal-Enquiry-and-Booking" target="_blank">GitHub</a>
+    </div>
+  <div class="project-card">
+  <img src="pc3.png" alt="VenuePro">
+  <h3>VenuePro</h3>
+  <p>A full-stack enterprise venue system designed for managing hall allocations in corporate settings. Built with a React-based frontend and Node.js backend, it features booking, calendar, and an admin dashboard for management and analytics.</p>
+  <p><strong>Tech Stack:</strong> React (Vite), CSS, JavaScript, Node.js, Express.js, MongoDB</p>
+  <a href="https://github.com/Abinaya2711/Enterprise-Venue-System" target="_blank">GitHub</a>
+</div>
+
+
+    <div class="project-card">
+  <img src="pc5.png" alt="TechCloset Store">
+  <h3>TechCloset Store</h3>
+  <p>A fully functional mini eCommerce platform built for online dress shopping. It features product filtering, and a dynamic shopping cart. The interface is responsive and built using modern frontend frameworks.</p>
+  <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap, jQuery</p>
+  <a href="https://github.com/Abinaya2711/TechCloset-Store" target="_blank">GitHub</a>
+</div>
+
+<div class="project-card">
+  <img src="pc6.png" alt="FlowerWeb">
+  <h3>FlowerWeb</h3>
+  <p>A visually appealing flower ordering website allowing users to browse and select bouquets for special occasions. The platform focuses on mobile-friendly, responsive UI design with a clean layout for a seamless user experience.</p>
+  <p><strong>Tech Stack:</strong> HTML, CSS</p>
+  <a href="https://github.com/Abinaya2711/Flower-Web" target="_blank">GitHub</a>
+</div>
+
+
+ 
+    
+    <div class="project-card">
+      <img src="pc2.png" alt="Project 2">
+      <h3>Spicy Hut Website</h3>
+        <p>A static food ordering website featuring interactive dish listings and an add-to-cart simulation. Designed with responsiveness in mind, this site uses clean layouts and media queries to enhance the user experience across devices.</p>
+      <p><strong>Tech Stack:</strong> HTML, CSS</p>
+      <a href="https://github.com/Abinaya2711/Spicy-Hut" target="_blank">GitHub</a>
+    </div>
+
+  <div class="project-card">
+  <img src="pc4.png" alt="YouTube Clone">
+  <h3>YouTube Clone</h3>
+  <p>A front-end clone of YouTube designed to replicate the core interface, including video thumbnails, search functionality, and sidebar navigation. Built with a strong emphasis on user experience and responsiveness.</p>
+  <p><strong>Tech Stack:</strong> HTML, CSS</p>
+  <a href="https://github.com/Abinaya2711/YouTube-Clone" target="_blank">GitHub</a>
+</div>
+
+
+  </div>
+</section>
+
+<section id="internships">
+  <h2 class="sectionn-title">Internship <span>Experience</span></h2>
+  <div class="timeline">
+      <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Gateway Software Solutions</h3>
+        <span class="position">ReactJS With MongoDB Intern</span>
+        <span class="date">(Jun 16 – Jul 16 2025)</span>
+        <p>Developed dynamic front-end features using ReactJS and implemented CRUD operations with MongoDB during a hands-on offline internship.</p>
+        <div class="tech-badge">ReactJS</div>
+        <div class="tech-badge">MongoDB</div>
+        <div class="tech-badge">REST API</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Futurik Technologies</h3>
+        <span class="position">Full Stack & Cloud Hosting Intern</span>
+        <span class="date">(Jan 2 – Feb 2 2025)</span>
+       <p>
+  Contributed to full-stack development and cloud hosting during an offline internship by developing and deploying a web application.
+  <a href="https://futuriktechnologies.com/psna/abinaya/" target="_blank" rel="noopener noreferrer">Project Link</a>
+</p>
+
+        <div class="tech-badge">HTML</div>
+        <div class="tech-badge">CSS</div>
+        <div class="tech-badge">JavaScript</div>
+        <div class="tech-badge">Bootstrap</div>
+        <div class="tech-badge">jQuery</div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>CodSoft</h3>
+        <span class="position">Web Development Intern</span>
+        <span class="date">(Feb 15 – Mar 15 2024)</span>
+        <p>Built responsive web interfaces and integrated server-side functionality during an online internship.</p>
+        <div class="tech-badge">HTML</div>
+        <div class="tech-badge">CSS</div>
+        <div class="tech-badge">JavaScript</div>
+      </div>
+    </div>
+
+  
+
+  </div>
+</section>
+<section id="certifications">
+  <h2 class="sectionn-title">Certifications <span>&</span>  Achievements</h2>
+  <div class="cert-grid">
+
+    <div class="cert-card">
+      <h3>The Complete Full-Stack Web Development Bootcamp (Udemy)</h3>
+      <p>Certified by Udemy for full-stack web development skills.</p>
+      <a href="https://drive.google.com/file/d/1gw3bh2vYKlmGuLnSuqhVLXEEPCTGsUgo/view?usp=sharing" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>MongoDB (ICT Academy)</h3>
+      <p>Certified by ICT Academy for MongoDB database proficiency.</p>
+      <a href="https://drive.google.com/file/d/16ELmHWc6zg9VTdceSySLoymdcShpxii6/view?usp=sharing" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>SQL Certification</h3>
+      <p>Certified by SkillRack for SQL programming expertise.</p>
+      <a href="https://drive.google.com/file/d/1fmurhb385AJF40BlxMxsTdG1MkT5PvPk/view?usp=sharing" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Palo Alto Networks Cybersecurity Training</h3>
+      <p>Certified by Palo Alto for hands-on web and security training.</p>
+      <a href="https://drive.google.com/file/d/11OkWvOvC_gIk4S6pC5Afx5XZP128GGHD/view?usp=drive_link" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Digital Skills: User Experience (Accenture)</h3>
+      <p>Certified by Accenture for UX design principles and skills.</p>
+      <a href="https://drive.google.com/file/d/1pgNX1JY-r85WL-UjV3rJ-AhKR7BJntRF/view?usp=sharing" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Linux CLI Basics Certificate (Cybrary)</h3>
+      <p>Certified by Cybrary for Linux command-line operations.</p>
+      <a href="https://drive.google.com/file/d/1wb-1Rn96tuyj0SqK1Zeq7mNGNuInHFrX/view?usp=drive_link" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Cloud Fundamentals Certification (Microsoft)</h3>
+      <p>Certified by Microsoft for foundational cloud computing skills.</p>
+      <a href="https://drive.google.com/your-cert-link7" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Introduction to Java (SoloLearn)</h3>
+      <p>Certified by SoloLearn for Java fundamentals and OOP concepts.</p>
+      <a href="https://drive.google.com/file/d/1BOuBFEaYnmz5oUtPwzCsh_rOkg7piM3V/view?usp=sharing" target="_blank" class="cert-btn">See Certificate</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section id="contact">
+  <h2 class="sectionn-title">Contact <span>Me</span></h2>
+
+  <div class="contact-container">
+    
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:abinaya271104@gmail.com" target="_blank">abinaya271104@gmail.com</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/abinaya-s-173816270" target="_blank">linkedin.com/in/abinaya-s</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/Abinaya2711" target="_blank">github.com/Abinaya2711</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Madurai, Tamil Nadu, India</span>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-phone-alt"></i>
+      <span>8148997410</span>
+    </div>
+
+  </div>
+</section>
+
+
+    <footer class="footer">
+  <div class="footer-content">
+    <p>Designed & Developed by Abinaya S © 2025</p>
+    <a href="#home" class="back-to-top" title="Back to Top">
+      <i class='bx bx-up-arrow-alt'></i>
+    </a>
+  </div>
+</footer>
+
+</body>
+
+
+</html>
+
+<script>
+  const menuIcon = document.getElementById("menu-icon");
+  const drawer = document.getElementById("side-drawer");
+  const overlay = document.getElementById("overlay");
+
+  menuIcon.addEventListener("click", () => {
+    drawer.classList.add("open");
+    overlay.classList.add("show");
+  });
+
+  function closeDrawer() {
+    drawer.classList.remove("open");
+    overlay.classList.remove("show");
+  }
+
+   const toggle = document.getElementById('theme-toggle');
+  const icon = toggle.querySelector('i');
+
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+
+    // Optional: Toggle icon
+    if (document.body.classList.contains('dark-mode')) {
+      icon.classList.remove('fa-moon');
+      icon.classList.add('fa-sun');
+    } else {
+      icon.classList.remove('fa-sun');
+      icon.classList.add('fa-moon');
+    }
+  });
+</script>
+
+
